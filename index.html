@@ -38,7 +38,7 @@
 
     <div class="pharmacist-box">
       <h3>👨‍⚕️ PHARMACIST DETAILS</h3>
-      <p><strong>Name:</strong> MO SHAHID</p>
+      <p><strong>Name:</strong> Mohammad SHAHID</p>
       <p><strong>Education:</strong> D.PH, CMS & ED, FAPC-LUCKNOW</p>
       <p><strong>Experience:</strong> 8 Years</p>
     </div>
@@ -142,7 +142,7 @@
       <p>www.lifemedicalstore.com</p>
 
       <h3>PHARMACIST DETAILS</h3>
-      <p><strong>Name:</strong> MO SHAHID</p>
+      <p><strong>Name:</strong> Mohammad SHAHID</p>
       <p><strong>Education:</strong> D.PH, CMS & ED, FAPC-LUCKNOW</p>
       <p><strong>Experience:</strong> 8 Years</p>
 
@@ -160,6 +160,30 @@
 </footer>
 
 <script src="script.js"></script>
+<button id="backToTop">⬆</button>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+    const btn = document.getElementById("backToTop");
+
+    window.addEventListener("scroll", function() {
+        if (window.scrollY > 150) {
+            btn.style.display = "flex";
+        } else {
+            btn.style.display = "none";
+        }
+    });
+
+    btn.addEventListener("click", function() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+
+});
+</script>
+</body>
 </body>
 </html>

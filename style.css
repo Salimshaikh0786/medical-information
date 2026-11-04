@@ -409,3 +409,25 @@ footer {
         font-size: 23px;
     }
 }
+#backToTop {
+    position: fixed !important;
+    bottom: 25px !important;
+    right: 25px !important;
+    width: 55px;
+    height: 55px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #00a86b;
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999999;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+#backToTop:hover {
+    background-color: #007f52;
+}
